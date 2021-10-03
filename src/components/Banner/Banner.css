@@ -1,0 +1,25 @@
+.banner {
+    background-image: url("../../img/banner.jpg"),
+      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    height: 500px;
+    width: 100%;
+    /* border: 1px solid red; */
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .title {
+    color: white;
+    font-weight: bold;
+     font-size: 49px; 
+  }
+  .general-btn {
+    background-color: blue;
+    outline: none;
+    border: none;
+    padding: 10px 34px;
+    color: white;
+    margin-left: 50px;
+    
+  }

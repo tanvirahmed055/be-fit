@@ -40,19 +40,19 @@ const Footer = () => {
                                     <NavLink to="/home" style={{
                                         textDecoration: "none",
                                         color: "white"
-                                    }}><li className="footer-menu"><i class="fas fa-check"></i>&nbsp;&nbsp;Home</li></NavLink>
+                                    }}><li className="footer-menu"><i className="fas fa-check"></i>&nbsp;&nbsp;Home</li></NavLink>
                                     <NavLink to="/about" style={{
                                         textDecoration: "none",
                                         color: "white"
-                                    }}><li className="footer-menu"><i class="fas fa-check"></i>&nbsp;&nbsp;About</li></NavLink>
+                                    }}><li className="footer-menu"><i className="fas fa-check"></i>&nbsp;&nbsp;About</li></NavLink>
                                     <NavLink to="/services" style={{
                                         textDecoration: "none",
                                         color: "white"
-                                    }}><li className="footer-menu"><i class="fas fa-check"></i>&nbsp;&nbsp;Services</li></NavLink>
+                                    }}><li className="footer-menu"><i className="fas fa-check"></i>&nbsp;&nbsp;Services</li></NavLink>
                                     <NavLink to="/contact" style={{
                                         textDecoration: "none",
                                         color: "white"
-                                    }}><li className="footer-menu"><i class="fas fa-check"></i>&nbsp;&nbsp;Contact</li></NavLink>
+                                    }}><li className="footer-menu"><i className="fas fa-check"></i>&nbsp;&nbsp;Contact</li></NavLink>
 
                                 </ul>
                             </div>
@@ -67,7 +67,7 @@ const Footer = () => {
                                 />
                                 <div className="phone d-flex align-items-center justify-content-center mt-4">
                                     <div className="footer-phone-icon">
-                                        <i class="fas fa-phone"></i>
+                                        <i className="fas fa-phone"></i>
                                     </div>
                                     <div>
                                         <h5>&nbsp;&nbsp;+880125673552</h5>
@@ -75,7 +75,7 @@ const Footer = () => {
                                 </div>
                                 <div className="phone d-flex align-items-center justify-content-center mt-4">
                                     <div className="footer-address-icon">
-                                        <i class="fas fa-map-marker-alt"></i>
+                                        <i className="fas fa-map-marker-alt"></i>
                                     </div>
                                     <div>
                                         <h5>&nbsp;&nbsp;48 Priyanka City,Uttara,Dhaka.</h5>

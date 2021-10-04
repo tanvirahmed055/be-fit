@@ -19,7 +19,7 @@ const Service = (props) => {
                     <p className="fw-bold text-center fw-bolder text-success">Price:&nbsp;  <span className="fw-bold text-dark">${price}</span></p>
                 </div>
                 <div className="d-grid gap-2 col-9 mx-auto add-button">
-                    <button className="btn btn-primary" type="button"><i class="fas fa-angle-double-down"></i>&nbsp;&nbsp;Details</button>
+                    <button className="btn btn-primary" type="button"><i className="fas fa-angle-double-down"></i>&nbsp;&nbsp;Details</button>
                 </div>
             </div>
         </div>

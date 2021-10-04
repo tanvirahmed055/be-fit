@@ -3,7 +3,7 @@ import Service from '../Service/Service';
 import './Services.css'
 
 const Services = () => {
-    //state for rendering experts on the UI
+    //state for rendering services on the UI
     const [services, setServices] = useState([]);
 
 

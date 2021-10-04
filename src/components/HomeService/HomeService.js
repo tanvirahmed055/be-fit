@@ -7,7 +7,7 @@ const HomeService = (props) => {
     return (
         <div className="col-md-3 mb-5">
             <div className="single-service card h-100 shadow rounded p-3">
-                <div>
+                <div className="service-image">
                     <img src={img} className="card-img-top product-image" alt="..." />
                 </div>
                 <div className="card-body">

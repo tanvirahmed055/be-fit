@@ -18,7 +18,7 @@ const HomeService = (props) => {
                     <p className="fw-bold text-center fw-bolder text-success">Price:&nbsp;  <span className="fw-normal text-dark">${price}</span></p>
                 </div>
                 <div className="d-grid gap-2 col-9 mx-auto add-button">
-                    <button className="btn btn-success" type="button"><i className="fas fa-user-plus"></i> &nbsp;Details</button>
+                    <button className="btn btn-success" type="button"><i class="fas fa-angle-double-down"></i>&nbsp;&nbsp;Details</button>
                 </div>
             </div>
         </div>

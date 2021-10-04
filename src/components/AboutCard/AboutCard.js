@@ -10,6 +10,7 @@ const AboutCard = () => {
                     <div className="col-md-8">
                         <div className="card-body">
                             <h5 className="card-title fw-bold">Join with Expert Fitness Coach</h5>
+
                             <p className="card-text">Our skilled trainers can help you meet your dream fitness goals. They can become your trainer, your motivator, your personal coach and your buddy. Our expert trainers are recognized and certified by renowed accredited fitness organizations.</p>
                             <p className="card-text">Our personal trainers can experience working with thousands of clients who have meet their fitness goals. You will be constanty monitored by our trainers so that they can track your progress and give you feedback on your journey and guide you in every step that you will be taking towards your fitness goal.</p>
                         </div>

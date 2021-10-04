@@ -1,4 +1,4 @@
-/* JService Component Styles */
+/* Service Component Style */
 
 .single-service {
     padding: 5px;
@@ -19,9 +19,7 @@
     mix-blend-mode: multiply;
 } 
   
-/* .card{
-    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-} */
+
 
 .add-button{
   margin-top: -25px;

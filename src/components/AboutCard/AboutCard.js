@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './AboutCard.css'
 const AboutCard = () => {
     return (
         <div>
@@ -9,14 +9,16 @@ const AboutCard = () => {
 
                     <div className="col-md-8">
                         <div className="card-body">
-                            <h5 className="card-title fw-bold">Join with Expert Fitness Coach</h5>
+                            <h4 className="card-title fw-bold">Work With Our Expert Fitness Coach</h4>
 
-                            <p className="card-text">Our skilled trainers can help you meet your dream fitness goals. They can become your trainer, your motivator, your personal coach and your buddy. Our expert trainers are recognized and certified by renowed accredited fitness organizations.</p>
-                            <p className="card-text">Our personal trainers can experience working with thousands of clients who have meet their fitness goals. You will be constanty monitored by our trainers so that they can track your progress and give you feedback on your journey and guide you in every step that you will be taking towards your fitness goal.</p>
+                            <p className="card-text text-secondary">Our skilled trainers can help you meet your dream fitness goals. They can become your trainer, your motivator, your personal coach and your buddy. Our expert trainers are recognized and certified by renowed accredited fitness organizations.</p>
+                            <p className="card-text text-secondary">Our personal trainers can experience working with thousands of clients who have meet their fitness goals. You will be constanty monitored by our trainers so that they can track your progress and give you feedback on your journey and guide you in every step that you will be taking towards your fitness goal.</p>
                         </div>
                     </div>
-                    <div className="col-md-4">
-                        <img src="https://www.mensjournal.com/wp-content/uploads/mf/_main2_trainer2.jpg?w=900&h=506&crop=1&quality=86&strip=all" className="img-fluid rounded-start" alt="..." />
+                    <div className="col-md-4 ">
+
+                        <img src="https://www.mensjournal.com/wp-content/uploads/mf/_main2_trainer2.jpg?w=900&h=506&crop=1&quality=86&strip=all" className="img-fluid rounded-start h-100" alt="..." />
+
                     </div>
 
                 </div>

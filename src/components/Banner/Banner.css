@@ -2,7 +2,7 @@
     background-image: url("../../img/banner.jpg"),
       linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
     height: 500px;
-    width: 100%;
+    width: 100vw;
     /* border: 1px solid red; */
     background-blend-mode: overlay;
     background-repeat: no-repeat;

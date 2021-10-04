@@ -1,0 +1,65 @@
+[
+    {
+        "name": "Full Body Tone Up",
+        "category": "General",
+        "price": 40,
+        "duration": "8 weeks",
+        "img": "https://www.mensjournal.com/wp-content/uploads/mf/chairdip_5.jpg?quality=86&strip=all"
+    },
+    {
+        "name": "Fat Burning Intense Program",
+        "category": "Weight Loss",
+        "price": 70,
+        "duration": "10 weeks",
+        "img": "https://www.muscleandfitness.com/wp-content/uploads/2017/12/dips-outside-1280.jpg?w=1280&h=731&crop=1&quality=86&strip=all"
+    },
+    {
+        "name": "Core Stability",
+        "category": "Workout",
+        "price": 90,
+        "duration": "6 weeks",
+        "img": "https://muscularstrength.com/uploads/froala/8545e3890a89e81ddd691c6ec4f49c3719fe47dc.jpg"
+    },
+    {
+        "name": "Muscle Building",
+        "category": "Workout",
+        "price": 140,
+        "duration": "12 weeks",
+        "img": "https://image.freepik.com/free-photo/man-training-fitness-studio_1296-387.jpg"
+    },
+    {
+        "name": "Belly Fat Loss",
+        "category": "Weight Loss",
+        "price": 60,
+        "duration": "4 weeks",
+        "img": "https://www.eatthis.com/wp-content/uploads/sites/4/2021/03/sit-ups.jpg?quality=82&strip=1&resize=640%2C360"
+    },
+    {
+        "name": "Cardio",
+        "category": "General",
+        "price": 50,
+        "duration": "5 weeks",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDg3ykG1WBnX0nTYInHveLpXsSPjc4hIrL2g&usqp=CAU"
+    },
+    {
+        "name": "Ab Workout",
+        "category": "Workout",
+        "price": 120,
+        "duration": "7 weeks",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTiTDR0_AQBl6S8kKLeQZGcD-aMuH9bi739A&usqp=CAU"
+    },
+    {
+        "name": "Fat Destroyer",
+        "category": "Weight Loss",
+        "price": 99,
+        "duration": "10 weeks",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9gkJHNKd2x9lFT-BcSv0N5IsEhtSMY_EgRg&usqp=CAU"
+    },
+    {
+        "name": "Home Workout",
+        "category": "General",
+        "price": 30,
+        "duration": "5 weeks",
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDkTJxymp_jTSdZ3H8fmKXJzVhfaodUaPCOQ&usqp=CAU"
+    }
+]

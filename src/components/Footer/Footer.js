@@ -1,18 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import ReactDOM from "react-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-    faFacebookSquare,
-    faInstagramSquare,
-    faTwitterSquare,
-    faYoutube,
-} from "@fortawesome/free-brands-svg-icons";
-import {
-    faCoffee,
-    faPhoneVolume,
-    faMapMarkedAlt,
-} from "@fortawesome/free-solid-svg-icons";
+import { NavLink } from 'react-router-dom';
 
 const Footer = () => {
     return (
@@ -23,38 +11,49 @@ const Footer = () => {
                         <div className="col-md-5">
                             <div className="left-container text-start">
                                 <h1>BeFits Fitness Club</h1>
-                                <div className="icons-container d-flex text-center ">
-                                    <div className="icon">
-                                        <FontAwesomeIcon icon={faInstagramSquare} />
-                                    </div>
-                                    <div className="icon">
-                                        <FontAwesomeIcon icon={faTwitterSquare} />
-                                    </div>
-                                    <div className="icon">
-                                        <FontAwesomeIcon icon={faYoutube} />
-                                    </div>
-                                    <div className="icon">
-                                        <FontAwesomeIcon icon={faFacebookSquare} />
-                                    </div>
-                                </div>
+
                                 <p className="mt-4 ">
                                     <small>
                                         We have our own expert specialised trainer who will look after your diet and food and lifestyle continousely.
                                     </small>
                                 </p>
 
+
+                                <div className=" mx-auto mt-3 text-secondary">
+                                    <i className="fab fa-facebook-square fa-2x icon facebook-icon-color"></i>
+                                    <i className="fab fa-twitter-square fa-2x icon twitter-icon-color"></i>
+                                    <i className="fab fa-linkedin fa-2x icon linkedin-icon-color"></i>
+                                    <i className="fab fa-youtube-square fa-2x icon youtube-icon-color"></i>
+                                    <i className="fab fa-whatsapp-square fa-2x icon whatsapp-icon-color"></i>
+
+
+                                </div>
+
                                 <p className="mt-5">
-                                    <small>BeFits © . All rights reserved.</small>
+                                    <small>Copyright © 2021 BeFits. All Rights Reserved.</small>
                                 </p>
                             </div>
                         </div>
                         <div className="col-md-2">
-                            <div className="footer-menu-container">
+                            <div className="footer-menu-container">   <h4 className="text-danger fw-bolder">Quick Links</h4>
                                 <ul>
-                                    <li className="footer-menu">Home</li>
-                                    <li className="footer-menu">About</li>
-                                    <li className="footer-menu">Services</li>
-                                    <li className="footer-menu">Contact</li>
+                                    <NavLink to="/home" style={{
+                                        textDecoration: "none",
+                                        color: "white"
+                                    }}><li className="footer-menu"><i class="fas fa-check"></i>&nbsp;&nbsp;Home</li></NavLink>
+                                    <NavLink to="/about" style={{
+                                        textDecoration: "none",
+                                        color: "white"
+                                    }}><li className="footer-menu"><i class="fas fa-check"></i>&nbsp;&nbsp;About</li></NavLink>
+                                    <NavLink to="/services" style={{
+                                        textDecoration: "none",
+                                        color: "white"
+                                    }}><li className="footer-menu"><i class="fas fa-check"></i>&nbsp;&nbsp;Services</li></NavLink>
+                                    <NavLink to="/contact" style={{
+                                        textDecoration: "none",
+                                        color: "white"
+                                    }}><li className="footer-menu"><i class="fas fa-check"></i>&nbsp;&nbsp;Contact</li></NavLink>
+
                                 </ul>
                             </div>
                         </div>
@@ -64,25 +63,22 @@ const Footer = () => {
                                 <input
                                     className="footer-input "
                                     type="text"
-                                    placeholder="Enter Email"
+                                    placeholder="enter your email"
                                 />
                                 <div className="phone d-flex align-items-center justify-content-center mt-4">
-                                    <div className="foter-phone-icon">
-                                        <FontAwesomeIcon icon={faPhoneVolume} />
+                                    <div className="footer-phone-icon">
+                                        <i class="fas fa-phone"></i>
                                     </div>
                                     <div>
-                                        <h5>+880125673552</h5>
+                                        <h5>&nbsp;&nbsp;+880125673552</h5>
                                     </div>
                                 </div>
-                                <div className="map d-flex align-items-center justify-content-center">
-                                    <div className="foter-phone-icon">
-                                        <FontAwesomeIcon icon={faMapMarkedAlt} />
+                                <div className="phone d-flex align-items-center justify-content-center mt-4">
+                                    <div className="footer-address-icon">
+                                        <i class="fas fa-map-marker-alt"></i>
                                     </div>
                                     <div>
-                                        <p>
-                                            120 Priyanka City, Road 3,
-                                            <br /> Sector 12, Uttara, Dhaka, Bangladesh.
-                                        </p>
+                                        <h5>&nbsp;&nbsp;48 Priyanka City,Uttara,Dhaka.</h5>
                                     </div>
                                 </div>
                             </div>

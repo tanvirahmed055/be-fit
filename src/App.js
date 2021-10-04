@@ -1,5 +1,5 @@
-import logo from './logo.svg';
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import Home from "./components/Home/Home";
 
@@ -8,7 +8,7 @@ import Services from "./components/Services/Services";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import Navbar from "./components/Navbar/Navbar";
-import Banner from "./components/Banner/Banner";
+
 import NotFound from "./components/NotFound/NotFound";
 import './App.css';
 

@@ -3,7 +3,6 @@ import './AboutCard.css'
 const AboutCard = () => {
     return (
         <div>
-
             <div className="card my-5 mx-auto" style={{ maxWidth: '80vw', maxHeight: '50vh' }}>
                 <div className="row g-0">
 
@@ -30,7 +29,7 @@ const AboutCard = () => {
             <div className="row row-cols-1 row-cols-md-3 g-4 mx-auto mt-3 mb-5" style={{ maxWidth: '80vw', maxHeight: '50vh' }}>
 
                 <div className="col">
-                    <div className="card h-100">
+                    <div className="card h-100 border border-secondary">
                         <img src="https://media.istockphoto.com/photos/fitness-trainer-at-gym-picture-id1072395722?k=20&m=1072395722&s=612x612&w=0&h=zhxJbv4VDqOqt5JwXI7CgZ0CXfXtagmdtF2mSITW0eo=" className="card-img-top" alt="..." />
                         <div className="card-body">
                             <h5 className="card-title">Steve Clark</h5>
@@ -40,7 +39,7 @@ const AboutCard = () => {
                     </div>
                 </div>
                 <div className="col">
-                    <div className="card h-100">
+                    <div className="card h-100 border border-secondary">
                         <img src="https://media.istockphoto.com/photos/portrait-of-chinese-personal-trainer-in-gym-picture-id1018043738?k=20&m=1018043738&s=612x612&w=0&h=9qZelesrux2DeXL9OMcoO3hK8cBPaa9qwTc_wHXdo7k=" className="card-img-top" alt="..." />
                         <div className="card-body">
                             <h5 className="card-title">Zung Ming</h5>
@@ -49,7 +48,7 @@ const AboutCard = () => {
                     </div>
                 </div>
                 <div className="col">
-                    <div className="card h-100">
+                    <div className="card h-100 border border-secondary">
                         <img src="https://media.istockphoto.com/photos/african-american-male-trainer-with-clipboard-picture-id475495254?b=1&k=20&m=475495254&s=170667a&w=0&h=sjcf4PBokL7W9u5c5HWlAutxpPNDvz3BOar4yUWVoRQ=" className="card-img-top" alt="..." />
                         <div className="card-body">
                             <h5 className="card-title">Russel Arnold</h5>

@@ -35,36 +35,37 @@ const Footer = () => {
                             </div>
                         </div>
                         <div className="col-md-2">
-                            <div className="footer-menu-container">   <h4 className="text-danger fw-bolder">Quick Links</h4>
+                            <div className="footer-link-container">   <h4 className="text-danger fw-bolder">Quick Links</h4>
                                 <ul>
                                     <NavLink to="/home" style={{
-                                        textDecoration: "none",
-                                        color: "white"
-                                    }}><li className="footer-menu"><i className="fas fa-check"></i>&nbsp;&nbsp;Home</li></NavLink>
+                                        color: "white",
+                                        textDecoration: 'none'
+                                    }}><li className="footer-nav"><i className="fas fa-check"></i>&nbsp;&nbsp;Home</li></NavLink>
                                     <NavLink to="/about" style={{
-                                        textDecoration: "none",
-                                        color: "white"
-                                    }}><li className="footer-menu"><i className="fas fa-check"></i>&nbsp;&nbsp;About</li></NavLink>
+                                        color: "white",
+                                        textDecoration: 'none'
+                                    }}><li className="footer-nav"><i className="fas fa-check"></i>&nbsp;&nbsp;About</li></NavLink>
                                     <NavLink to="/services" style={{
-                                        textDecoration: "none",
-                                        color: "white"
-                                    }}><li className="footer-menu"><i className="fas fa-check"></i>&nbsp;&nbsp;Services</li></NavLink>
+                                        color: "white",
+                                        textDecoration: 'none'
+                                    }}><li className="footer-nav"><i className="fas fa-check"></i>&nbsp;&nbsp;Services</li></NavLink>
                                     <NavLink to="/contact" style={{
-                                        textDecoration: "none",
-                                        color: "white"
-                                    }}><li className="footer-menu"><i className="fas fa-check"></i>&nbsp;&nbsp;Contact</li></NavLink>
+                                        color: "white",
+                                        textDecoration: 'none'
+                                    }}><li className="footer-nav"><i className="fas fa-check"></i>&nbsp;&nbsp;Contact</li></NavLink>
 
                                 </ul>
                             </div>
                         </div>
                         <div className="col-md-5">
                             <div className="right-footer-container">
-                                <h3>Sign up for the newsletter</h3>
+                                <h3>Join Our Mailing List!</h3>
                                 <input
                                     className="footer-input "
                                     type="text"
                                     placeholder="enter your email"
                                 />
+                                <button type="button" class="btn btn-primary btn-sm newsletter-btn ms-2">Subscribe</button>
                                 <div className="phone d-flex align-items-center justify-content-center mt-4">
                                     <div className="footer-phone-icon">
                                         <i className="fas fa-phone"></i>

@@ -3,17 +3,19 @@
       linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
     height: 500px;
     width: 100vw;
-    /* border: 1px solid red; */
     background-blend-mode: overlay;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
   }
-  .title {
+
+  .banner-title {
+    font-size: 49px;
     color: white;
     font-weight: bold;
-     font-size: 49px; 
+      
   }
+  
   .general-btn {
     background-color: blue;
     outline: none;

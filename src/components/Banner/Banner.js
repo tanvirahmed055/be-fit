@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../Navbar/Navbar";
+
 import "./Banner.css";
 
 const Banner = () => {
@@ -9,7 +9,6 @@ const Banner = () => {
 
             <div className="">
                 <div className="row d-flex banner align-items-center justify-content-center">
-                    <Navbar></Navbar>
                     <div className="col-md-6">
                         <h1 className="title  ms-5">
                             THE BEST FITNESS TRAINING <br /> YOU WILL EVER FIND

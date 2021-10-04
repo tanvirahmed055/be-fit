@@ -7,6 +7,7 @@ import About from "./components/About/About";
 import Services from "./components/Services/Services";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
+
 import NotFound from "./components/NotFound/NotFound";
 import './App.css';
 
@@ -15,6 +16,7 @@ function App() {
     <div className="App">
       <Router>
         <Switch>
+
           <Route exact path="/">
             <Home></Home>
           </Route>

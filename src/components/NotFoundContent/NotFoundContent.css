@@ -1,0 +1,9 @@
+.notfound-container{
+    height: 500px;
+    width: 100vw;
+    background-image: linear-gradient(to top, #feada6 0%, #f5efef 100%);
+}
+
+.notfound-header{
+    font-size: 64px;
+}

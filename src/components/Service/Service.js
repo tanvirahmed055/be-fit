@@ -12,14 +12,14 @@ const Service = (props) => {
                     <img src={img} className="card-img-top product-image" alt="..." />
                 </div>
                 <div className="card-body">
-                    <h6 className="card-title fw-bolder text-center text-success">Name:&nbsp;<span className="fw-normal text-dark"> {name}</span></h6>
+                    <h6 className="card-title fw-bold text-center text-success ">Name:&nbsp;<span className="fw-normal text-dark fw-bold"> {name}</span></h6>
                     <p className="card-text text-center fw-bolder text-success">Catrgory:&nbsp;<span className="fw-normal text-dark">{category} </span></p>
                     <p className="card-text text-center fw-bolder text-success">Duration:&nbsp; <span className="fw-normal text-dark">{duration}</span></p>
 
-                    <p className="fw-bold text-center fw-bolder text-success">Price:&nbsp;  <span className="fw-normal text-dark">${price}</span></p>
+                    <p className="fw-bold text-center fw-bolder text-success">Price:&nbsp;  <span className="fw-bold text-dark">${price}</span></p>
                 </div>
                 <div className="d-grid gap-2 col-9 mx-auto add-button">
-                    <button className="btn btn-success" type="button"><i class="fas fa-angle-double-down"></i>&nbsp;&nbsp;Details</button>
+                    <button className="btn btn-primary" type="button"><i class="fas fa-angle-double-down"></i>&nbsp;&nbsp;Details</button>
                 </div>
             </div>
         </div>

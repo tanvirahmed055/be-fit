@@ -1,22 +1,10 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import Service from '../Service/Service';
+import useServices from '../../hooks/useServices';
 import './Services.css'
 
 const Services = () => {
-    //state for rendering services on the UI
-    const [services, setServices] = useState([]);
-
-
-    //fetch json data and setting it to a state
-    useEffect(() => {
-        fetch('./servicesData.json')
-            .then(res => res.json())
-            .then(data => setServices(data));
-    }, []);
-
-
-
-
+    const [services] = useServices();
     return (
         <div>
             <div className="container">

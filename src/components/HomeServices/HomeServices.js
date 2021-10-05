@@ -1,19 +1,10 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
+import useServices from '../../hooks/useServices';
 import HomeService from '../HomeService/HomeService';
 import './HomeServices.css'
 
 const HomeServices = () => {
-    //state for rendering services on the UI
-    const [services, setServices] = useState([]);
-
-
-    //fetch json data and setting it to a state
-    useEffect(() => {
-        fetch('./servicesData.json')
-            .then(res => res.json())
-            .then(data => setServices(data));
-    }, []);
-
+    const [services] = useServices();
 
     const firstFourServices = services.slice(0, 4);
 

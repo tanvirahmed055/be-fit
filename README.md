@@ -11,4 +11,4 @@
 
 * Clients can see the in detail information of the fitness services along with the profile of our certified trainers.
 
-* This website is built with React JS, React-Bootstrap, Font Awesome Icons and Google Fonts.
+* This website is built with React JS, React Context API, React-Bootstrap, Font Awesome Icons and Google Fonts.

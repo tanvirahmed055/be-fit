@@ -1,8 +1,11 @@
-import React from "react";
-import "./Footer.css";
+import React, { useContext } from 'react';
+import { CopyRightContext } from '../../App';
 import { NavLink } from 'react-router-dom';
+import "./Footer.css";
+
 
 const Footer = () => {
+    const CopyRightMessage = useContext(CopyRightContext);
     return (
         <div>
             <div className="footer-container">
@@ -10,7 +13,7 @@ const Footer = () => {
                     <div className="row">
                         <div className="col-md-5">
                             <div className="left-container text-start">
-                                <h1>BeFits Fitness Club</h1>
+                                <h1>BeFits Fitness Training Club</h1>
 
                                 <p className="mt-4 ">
                                     <small>
@@ -30,7 +33,7 @@ const Footer = () => {
                                 </div>
 
                                 <p className="mt-5">
-                                    <small>Copyright © 2021 BeFits. All Rights Reserved.</small>
+                                    <small>{CopyRightMessage}</small>
                                 </p>
                             </div>
                         </div>

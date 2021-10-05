@@ -65,7 +65,7 @@ const Footer = () => {
                                     type="text"
                                     placeholder="enter your email"
                                 />
-                                <button type="button" class="btn btn-primary btn-sm newsletter-btn ms-2">Subscribe</button>
+                                <button type="button" className="btn btn-primary btn-sm newsletter-btn ms-2">Subscribe</button>
                                 <div className="phone d-flex align-items-center justify-content-center mt-4">
                                     <div className="footer-phone-icon">
                                         <i className="fas fa-phone"></i>

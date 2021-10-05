@@ -1,0 +1,7 @@
+/* Navbar Component Style */
+.link-style:hover {
+    color:#89CFF0 !important;
+    font-weight: 700;
+    font-size: larger;
+    
+  }

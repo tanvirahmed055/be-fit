@@ -1,6 +1,11 @@
 /* Services Component Style */
 .services-container{
-    /* margin-right: 5px;
-    margin-left: 2px; */
     margin: auto;
 }
+
+.services-horizontal-line{
+    border: 2px solid;
+    width: 220px;
+    margin: auto;
+}
+ 
